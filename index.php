@@ -22,16 +22,16 @@
                         <div class="container__roller">
                             <span class="container__control__text">Reached: </span>
                             <div class="progressBar">
-                                <div class="progressBar__fill">
+                                <div class="progressBar__fill" id="bar">
                                     <div class="progressBar__arrow">
-                                        <span class="progressBar__target">$0</span>
+                                       $ <span class="progressBar__target" id="counter">0</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="container__plate">
                                 Target
                                 <hr>
-                                <p class="targetSumm">$15</p>
+                                <p class="targetSumm" >$<span id="target">15</span></p>
                             </div>
                         </div>
                         <div class="container__notify">You need <span class="container_icon">i</span> more to reach your target.</div>
@@ -39,6 +39,6 @@
                 </div>
             </div>
         </div>
-	<script src="/src/script.js"></script>
+	<script src="/src/script.js?<?=rand()?>"></script>
 </body>
 </html>

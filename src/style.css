@@ -92,7 +92,7 @@ body {
 	background: #0086cc;
 	width: 0;
 	height: 14px;
-	/*transition: width 2s;*/
+	transition: width 2s;*/
 	position: relative;
 }
 .progressBar__target {
